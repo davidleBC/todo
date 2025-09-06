@@ -1,0 +1,13 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto 95vh;
+}
+
+.sideColumn {
+    background-color: lightgray;
+}
+
+.mainColumn {
+    background-color: whitesmoke;
+}
