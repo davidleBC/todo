@@ -6,8 +6,12 @@
 
 .sideColumn {
     background-color: lightgray;
+    padding-left: 5%;
+    padding-top: 10px;
 }
 
 .mainColumn {
-    background-color: whitesmoke;
+    padding-left: 5%;
+    padding-top: 10px;
 }
+

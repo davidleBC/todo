@@ -5,14 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <div class="gridcontainer">
         <div class="sideColumn">Todoist</div>
         <div class="mainColumn">List of ToDos</div>
-        <div class="sideColumn">Create Item</div>
-        <div class="mainColumn">Display Item</div>
+        <div class="sideColumn"><button id="create">+</button></div>
+        <div class="mainColumn" id="display">+
+            <form method="post" action="example.com/path">
+                <div>
+                <label for="task_name">Task Name:</label>
+                <input type="text" id="task_name" name="title">
+                </div>
+                <div>
+                <label for="task_description">Description:</label>
+                <input type="text" id="Description" name="description">
+                </div>
+                <label for="due_date">Due Date:</label>
+                <input type="text" id="due_date" name="dueDate">
+                <div>
+                <label for="priority">Priority:</label>
+                <input type="text" id="priority" name="priority">
+                </div>
+                <button type="button">Save</button>
+            </form>
+        </div>
         
     </div>
 
