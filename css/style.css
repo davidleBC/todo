@@ -1,17 +1,27 @@
 .gridcontainer {
     display: grid;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 150px auto;
     grid-template-rows: auto 95vh;
 }
 
 .sideColumn {
     background-color: lightgray;
-    padding-left: 5%;
+    padding-left: 15px;
     padding-top: 10px;
 }
 
 .mainColumn {
-    padding-left: 5%;
+    padding-left: 15px;
     padding-top: 10px;
 }
 
+input,
+textarea,
+select,
+button {
+  
+}
+
+label {
+    display: block;
+}
